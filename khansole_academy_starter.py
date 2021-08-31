@@ -7,8 +7,6 @@ randomly generating integers between 10 and 99 inclusive. The program returns fe
 """
 
 import random
-# use code below  to generate a random integer between 30 and 50 for example
-print(random.randint(30, 50))
 
 # ********************************** YOUR CODE GOES BELOW HERE *********************************************************
 count1 = 1
