@@ -9,9 +9,15 @@ randomly generating integers between 10 and 99 inclusive. The program returns fe
 import random
 
 # ********************************** YOUR CODE GOES BELOW HERE *********************************************************
-count1 = 1
+fran_num=random.randint(10,99)
+#the first random variable assignment
+sran_num=random.randint(10,99)
+# the second random variable assignment.
+solution=int(fran_num+sran_num)
+# The addition varibale to the two previous variable.
+count = 1
 # assigning the variable for the number of tries.
-while count1 <= 3:
+while count <= 3:
     fran_num=random.randint(10,99)
     #the first random variable assignment
     sran_num=random.randint(10,99)
@@ -22,11 +28,13 @@ while count1 <= 3:
     user_input=int(input("Answer:"))
     # Here this is displayed to request for the user's input
     if user_input==solution:
-        print("Correct!! You've gotten " ,count1," correct answer in a row.")
+        print("Correct!! You've gotten " ,count," correct answer in a row.")
         
-        count1+=1
+        count+=1
     #This displays information if the user gets the answer correct.
     else:
+        count=1
+         #this is to reset the counting.
         print("Incorrect. The expected answer is",solution)
     # if the answer is wront this information is displayed.
         
