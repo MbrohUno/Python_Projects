@@ -18,6 +18,7 @@ solution=int(fran_num+sran_num)
 count = 1
 # assigning the variable for the number of tries.
 while count <= 3:
+#this to repeat the sequence until a TRUE condition is met.
     fran_num=random.randint(10,99)
     #the first random variable assignment
     sran_num=random.randint(10,99)
@@ -36,7 +37,7 @@ while count <= 3:
         count=1
          #this is to reset the counting.
         print("Incorrect. The expected answer is",solution)
-    # if the answer is wront this information is displayed.
+    # if the answer is wrong this information is displayed.
         
     
     
