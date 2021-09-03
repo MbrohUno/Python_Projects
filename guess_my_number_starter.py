@@ -9,8 +9,8 @@ import random
 # ********************************** YOUR CODE GOES BELOW HERE *********************************************************
 name = input("What is your name? ")
 # Here the user is asked to enter the name first
-print("Hello, " + name + " I am your friend Michael")
-print("Welcome to my number guessing...")
+print("Hello, " + name + " I am your friend, Michael.")
+print("Welcome to my number guessing game...")
 print("This is a game where you are to guess a secret number.")
 print("This number is between 1 and 99.")
 # Here the user is being introduced to the game.
@@ -21,12 +21,12 @@ while True:
     # Here the user is being asked to guess the number and asked over a number of times based on the condition.
     ## Condition testing
     if user_input<ran_num:
-        print("You guessed too low")
+        print("Wrong,You guessed too low")
     # Here an information is displayed if the input is lower than the secret number.
     elif user_input>ran_num:
-        print("You guessed too high")
+        print("Wrong,You guessed too high")
     # Here an information is displayed if the input is higher than the secret number.
     else:
         print("Congratulations, You've mastered this game")
         break
-    # Once the secret number is guessed the loop will break
+    # Once the secret number is guessed the loop will break"""
